@@ -20,6 +20,24 @@
 .play-control {
     width:50%;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top:1rem;
+}
+.skip-backward {
+    cursor:pointer
+}
+
+.skip-forward {
+    cursor:pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .time-control {
+       
+        width:90%;
+        
+    }
+    .play-control {
+        width:90%;
+    }
 }
